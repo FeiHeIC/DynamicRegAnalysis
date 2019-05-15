@@ -324,7 +324,7 @@ plot(Tspan,phoM,'b.')
 hold on
 plot(Ts,phoM_GP,'b-','LineWidth',2)
 hold on
-legend('95% CI','PhoH','PhoH-GP','95% CI','PhoM','PhoM-GP')
+legend('CI','PhoH','PhoH-GP','CI','PhoM','PhoM-GP')
 grid on
 xlabel('Time (min)')
 ylabel('\rho_h(t) & \rho_m(t)')
